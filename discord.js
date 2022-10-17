@@ -15,7 +15,7 @@ const logger = new Signale({ scope: 'Discord' });
 // Function to start the Discord bot
 function main() {
     logger.info('Logging in...');
-    client.login(config.discord.token).catch(() => {
+    client.login(process.env['token']).catch(() => {
         logger.fatal('Failed to login! Is your intents enabled?');
         process.exit(0);
     }).then(() => {

@@ -1,11 +1,10 @@
 {
-    "domain": "localhost",
+    "domain": "agasogaskg.christking1.repl.co",
     "https": false,
     "http_port": 80,
     "discord": {
-        "token": "",
-        "guild-id": "",
-        "verified-role-id": "",
+        "guild-id": "1029371564875075605",
+        "verified-role-id": "1029371564875075608",
         "_comment": "Below is for users that want to have a role removed upon verification, if you want this, set remove-role to true, and set your remove role ID.",
         "remove-role": false,
         "remove-role-id": "",
@@ -16,7 +15,7 @@
         "rules": "Type your rules here if rulesenabled is enabled, ensure to use \n for new lines"
     },
     "recaptcha": {
-        "secret-key": "",
-        "public-key": ""
+        "public-key": "6Lf-HXciAAAAAI_lNALBkfCKafrc50SJKqvcK3DG"
+      
     }
 }

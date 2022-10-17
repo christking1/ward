@@ -37,7 +37,7 @@ app.post('/verify/:verifyId?', async (req, res) => {
 
     const response = await axios({
         method: 'post',
-        url: `https://www.google.com/recaptcha/api/siteverify?secret=${config.recaptcha['secret-key']}&response=${req.body['g-recaptcha-response']}`,
+        url: `https://www.google.com/recaptcha/api/siteverify?secret=${process.env['secret_key']}&response=${req.body['g-recaptcha-response']}`,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         }
